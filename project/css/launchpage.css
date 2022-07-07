@@ -1,0 +1,208 @@
+body {
+        background-size: 100%;
+        margin: 0px;
+
+}
+
+/* Setting the background of entire webpage(s) */
+.homebackground {
+        background: url("../images/icecap1.jpg") no-repeat center center fixed;
+        margin: 0px;
+
+}
+
+.experbackground {
+        background: url("../images/icecapgray.jpg") no-repeat center center fixed;
+        margin: 0px;
+
+}
+
+/* I will insert other pages and their backgrounds here */
+
+/* The circle image only on index page */
+#peacoatimage {
+                padding-top: 0px;
+                background: url("../images/circtryagain.png") no-repeat center center;
+                opacity: .8;
+                background-size: 70%;
+                margin: 80px auto;
+                width: 100%;
+                max-width: 400px;
+                height: 300px;
+
+} 
+
+
+/* My name on index page */
+.myname {
+        padding-top: 80px;
+        text-align: center; 
+        font-family: 'Lato', sans-serif;
+        color: #FFCC00;
+        opacity: .7;
+        font-size: 4em;
+        font-weight: bold;
+        text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+
+}
+
+h1 {
+                min-height: 120px;
+                width: 90%;
+                max-width: 700px;
+                vertical-align: middle;
+                text-align: center;
+                margin: 0 auto;
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.5);
+                
+}
+
+p {
+                font-family: 'Dosis', sans-serif;
+                font-size: 1.15em;
+                color:rgb(51, 51, 51);
+                font-weight: bolder;
+                width: 90%;
+                max-width: 700px;
+                text-align: center;
+                margin: 0 auto;
+                padding-bottom: 32px;
+                text-shadow: 0 0 1px rgba(0, 0, 0, 0.5), 0 0 1px rgba(245, 245, 245, 0.5), 0 0 1px rgba(245, 245, 245, 0.5), 0 0 1px rgba(245, 245, 245, 0.5);
+
+}
+
+
+/* Setting the initial element for social tags (facebook, twitter, linkedin, etc */
+#social {
+        
+        position: absolute;
+        list-style:none;
+        padding: 5px 100px 100px 100px;
+        left:50%;
+        right: 50%;
+        margin-left:-375px; 
+        width: 600px;
+        max-width: 900px;
+
+}
+
+
+ /* Making list elements for social tags */
+#social li {
+                margin-left: 30px;
+                float: left;
+
+}
+
+/* Clickable anchors for social tags */
+#social a {
+
+                display:block;
+                text-align: center;
+                width:30px; 
+                text-decoration:none;   
+
+}
+
+.fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 30px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+                border: 1px solid #FFCC00;
+
+}
+
+.fa:hover {
+                opacity: .99;
+
+}
+
+.fa-facebook {
+                background: #3B5998;
+                color: white;
+                opacity: .6;
+
+}
+
+.fa-twitter {
+                background: #55ACEE;
+                color: white;
+                opacity: .6;
+}
+
+.fa-linkedin {
+                background: #007bb5;
+                color: white;
+                opacity: .6;
+
+}
+
+.fa-google {
+                background: #dd4b39;
+                color: white;
+                opacity: .6;
+
+}
+
+.fa-instagram {
+                background: #125688;
+                color: white;
+                opacity: .6;
+
+}
+
+
+/* Making the navigation bar at top of page */
+#navbar {
+                position: absolute;
+
+}
+
+#nav {
+                position:absolute;
+                left:50%;
+                top:0;
+                right: 50%;
+                margin-left:-375px; 
+                width:800px;
+                list-style:none;
+
+}
+
+#nav li {
+                float:left;
+        }
+
+#nav a {
+                display:block;
+                text-align:center;
+                width:150px; 
+                text-decoration:none; 
+
+}
+
+.navbar a {
+                color: #CCCCCC;
+                font-family: 'Exo', sans-serif;
+                font-weight: bold;
+                font-size: 1.1em;
+                text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+
+}
+
+.navbar a.active {
+                color: #FFCC00;
+                opacity: .7;
+
+}
+
+
+.navbar a:hover {
+                color: rgb(55, 93, 131);
+                opacity: .9;
+
+}
